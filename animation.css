@@ -1,0 +1,73 @@
+.back{
+    background-color: black; 
+    width: 800px; 
+    height: 500px; 
+    margin: auto; 
+    margin-top: 200px;
+    position: relative;
+    animation-name: back;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; }
+ .back h1{
+    text-align: center; 
+    color: rgb(7, 6, 3);
+    padding-top: 30%;}
+    
+ @keyframes back{
+        0%{background-color: red;}
+        25%{background-color: green;}
+        50%{background-color: pink;}
+        75%{background-color:yellow ;}}
+    
+    
+ .red{
+    background-color: red; 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0%;
+    left: 0%;
+    border-radius: 50%;}
+ .blue{
+    background-color: pink;
+    position: absolute; width:
+     100px; height: 100px; top: 400px ;
+      left: 0%; border-radius: 50%;}
+ .green{
+background-color: green; 
+ position:absolute;
+ width: 100px; 
+height: 100px; 
+top: 400px; 
+left: 700px; 
+border-radius: 50%;}
+.yellow{
+ background-color: yellow; 
+position: absolute; width: 100px; 
+        height: 100px;
+         top: 0px; 
+         left: 700px; 
+         border-radius: 50%;}
+    
+    .doira{background-color: red; position: absolute; width: 100px; height: 100px; top: 0px; left: 0px; border-radius: 50%;
+    animation-name: doira; animation-duration: 4s; animation-iteration-count: infinite;}
+    
+    
+        
+    
+    
+    
+    @keyframes
+    doira{
+       0%{transform: translate(0px, 0px);}
+       25%{transform: translate(700px, 400px);}
+       50%{transform: translate(0px, 400px);}
+       75%{transform: translate(700px, 0px);}
+    
+       0%{background-color: rgb(129, 38, 38);}
+       25%{background-color: rgb(30, 134, 30);}
+       50%{background-color:  rgb(201, 74, 93);}
+       75%{background-color: rgb(235, 235, 18);}
+       
+    }
+    
